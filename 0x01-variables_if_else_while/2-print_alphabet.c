@@ -7,12 +7,12 @@
  */
 int main(void)
 {
-	int lowerCase = 'a';
+int lowerCase = 'a';
 while (lowerCase <= 'z')
-	{
-		putchar(lowerCase);
-		lowerCase += 1;
-	}
-	putchar('\n');
+{
+putchar(lowerCase);
+lowerCase += 1;
+}
+putchar('\n');
 return (0);
 }
