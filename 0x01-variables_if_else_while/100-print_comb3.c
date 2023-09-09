@@ -5,30 +5,22 @@
  */
 int main(void)
 {
-int i = '0';
-int j = '0';
-while (i <= '8')
+int d, p;
+for (d = '0'; d < '9'; d++)
 {
-while (j <= '9')
+for (p = d + 1; p <= '9'; p++)
 {
-if (!(i > j) || i == j)
+if (p != d)
 {
-putchar(i);
-putchar(j);
-if (i == '8' && j == '9')
-{
-putchar('\n');
-}
-else
-{
+putchar(d);
+putchar(p);
+if (d == '8' && p == '9')
+continue;
 putchar(',');
 putchar(' ');
 }
 }
-j++;
 }
-j = '1';
-i++;
-}
+putchar('\n');
 return (0);
 }
