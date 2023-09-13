@@ -1,4 +1,5 @@
-#include <studio.h>
+#include <stdio.h>
+
 /**
  * main - Print the sum
  * Return: 0
