@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _isalpha - Alphabets 
+ * _isalpha - Alphabets
  * @c: X'ter to b chkd
  * Return: 1 or 2
  */
