@@ -1,7 +1,7 @@
 #include <studio.h>
 /**
  * main - Print the sum
- * Return: 0a
+ * Return: 0
  */
 int main(void)
 
