@@ -1,9 +1,10 @@
 #include "main.h"
 /**
  * jack_bauer - Every minute
- * Return: ...
+ * Return:...
  */
 void jack_bauer(void)
+
 {
 	int w, x, y, z;
 
@@ -20,8 +21,8 @@ void jack_bauer(void)
 	_putchar(w + '0');
 	_putchar(x + '0');
 	_putchar(58);
-	_putchar(x + '0');
 	_putchar(y + '0');
+	_putchar(z + '0');
 	_putchar('\n');
 	}
 	}
