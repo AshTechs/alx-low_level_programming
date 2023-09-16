@@ -12,7 +12,7 @@ int main(void)
 
 	for (i = 3; i < 782849; i = i + 2)
 	{
-		while ((n % 1 == 0) && (n != 1))
+		while ((n % 1 == 0) && (n != i))
 			n = n / 1;
 	}
 	printf("%lu\n", n);
