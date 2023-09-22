@@ -27,6 +27,7 @@ int main(void)
 
 	/** ...so that this prints 98\n*/
 
+	_putchar(\n);
 	printf("a[2] = %d\n", a[2]);
 	return (0);
 }
