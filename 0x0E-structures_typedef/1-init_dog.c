@@ -3,17 +3,17 @@
 
 /**
  * init_dog - init a variable
- * @p: Pointer
- * @n: Name
- * @a: Age
- * @o: Owner
+ * @d: Pointer
+ * @name: Name
+ * @age: Age
+ * @owner: Owner
  */
 
-void init_dog(struct dog *p, char *n, float a, char *o)
+void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-	if (p == NULL)
-		p = malloc(sizeof(struct dog));
-	p->n = n;
-	p->a = a;
-	p->o = o;
+	if (d == NULL)
+		d = malloc(sizeof(struct dog));
+	d->name = name;
+	d->age = age;
+	d->owner = owner;
 }
