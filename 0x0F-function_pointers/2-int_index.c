@@ -1,5 +1,5 @@
 #include "functions_pointers.h"
-#include "stdio.h"
+
 
 /**
  * int_index - Return index place
