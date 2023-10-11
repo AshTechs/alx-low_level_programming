@@ -9,12 +9,12 @@
 
 int (*get_op_func(char *s))(int, int)
 {
-	p_t ops[] = {
-		{"+", p_add},
-		{"-", p_sub},
-		{"*", p_mul},
-		{"/", p_div},
-		{"%", p_mod},
+	op_t ops[] = {
+		{"+", op_add},
+		{"-", op_sub},
+		{"*", op_mul},
+		{"/", op_div},
+		{"%", op_mod},
 		{NULL, NULL},
 	};
 }

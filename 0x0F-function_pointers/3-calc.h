@@ -3,21 +3,21 @@
 
 /**
  * struct op - A struct op
- * @p: The operator
+ * @op: The operator
  * @f: The function
  */
 
 typedef struct op
 {
-	char *p;
+	char *op;
 	int (*f)(int a, int b);
-} p_t;
+} op_t;
 
-int p_add(int a, int b);
-int p_sub(int a, int b);
-int p_mul(int a, int b);
-int p_div(int a, int b);
-int p_mod(int a, int b);
+int op_add(int a, int b);
+int op_sub(int a, int b);
+int op_mul(int a, int b);
+int op_div(int a, int b);
+int op_mod(int a, int b);
 int (*get_op_func(char *s))(int, int);
 
 #endif
