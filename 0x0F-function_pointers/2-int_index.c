@@ -1,5 +1,5 @@
 #include "functions_pointers.h"
-
+#include <stdio.h>
 
 /**
  * int_index - Return index place
@@ -20,5 +20,5 @@ int int_index(int *a, int s, int (*p)(int))
 		if (p(a[i]))
 			return (i);
 	}
-	return (-1);
+	return (-1)
 }
