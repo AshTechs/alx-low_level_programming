@@ -4,23 +4,23 @@
 
 /**
  * print_all - prints everything
- * @f: list of types of arguments
+ * @fo: list of types of arguments
  */
 
-void print_all(const char * const f, ...)
+void print_all(const char * const fo, ...)
 {
 	int i = 0;
 	char *str, *sep = "";
 
 	va_list list;
 
-	va_start(list, f);
+	va_start(list, fo);
 
-	if (f)
+	if (fo)
 	{
-		while (f[i])
+		while (fo[i])
 		{
-			switch (f[i])
+			switch (fo[i])
 			{
 				case 'c':
 					printf("%s%c", sep, va_arg(list, int));
@@ -28,7 +28,7 @@ void print_all(const char * const f, ...)
 				case 'i':
 					printf("%s%d", sep, va_arg(list, int));
 					break;
-				case 'g':
+				case 'f':
 					printf("%s%f", sep, va_arg(list, double));
 					break;
 				case 's':
