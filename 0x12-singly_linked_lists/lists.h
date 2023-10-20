@@ -6,7 +6,7 @@
  * struct list_s - Singly linked list
  * @str: String
  * @len: Length
- * @n: Point to the next node
+ * @next: Point to the next node
  *
  * Description: singly linked list node structure
  */
@@ -15,7 +15,7 @@ typedef struct list_s
 {
 	char *str;
 	unsigned int len;
-	struct list_s *n;
+	struct list_s *next;
 } list_t;
 
 int _putchar(char c);
