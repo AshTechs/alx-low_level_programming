@@ -6,7 +6,7 @@
  * Return: Resulting sum
  */
 
-int sum_listint(listint_t h)
+int sum_listint(listint_t *h)
 {
 	int sum = 0;
 	listint_t *temp = h;
